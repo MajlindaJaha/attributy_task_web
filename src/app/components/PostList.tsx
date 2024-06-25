@@ -68,7 +68,7 @@ const PostTable = () => {
     setContent("");
   };
 
-  const handleDelete = async (id: number) => {
+  const handleDelete = async (id: any) => {
     await deletePost(id);
   };
 

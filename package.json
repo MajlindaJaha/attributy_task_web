@@ -4,10 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "cd src/app && next dev",
-    "dev:port": "cd src/app && next dev --port 4000",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "cd src/app && next build",
+    "start": "cd src/app && next start"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",

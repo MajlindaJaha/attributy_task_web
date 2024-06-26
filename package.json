@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "dev:local": "cd src/app && next dev --port 4000",
     "dev": "cd src/app && next dev",
     "build": "cd src/app && next build",
     "start": "cd src/app && next start"
